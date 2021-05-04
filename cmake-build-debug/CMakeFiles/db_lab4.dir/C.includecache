@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/db_lab/db_lab4/Q2.c
+Q2.h
+E:/db_lab/db_lab4/Q2.h
+
+E:/db_lab/db_lab4/Q2.h
+utils.h
+E:/db_lab/db_lab4/utils.h
+block.h
+E:/db_lab/db_lab4/block.h
+info.h
+E:/db_lab/db_lab4/info.h
+
+E:/db_lab/db_lab4/block.h
+utils.h
+E:/db_lab/db_lab4/utils.h
+info.h
+E:/db_lab/db_lab4/info.h
+
+E:/db_lab/db_lab4/extmem.h
+
+E:/db_lab/db_lab4/info.h
+
+E:/db_lab/db_lab4/utils.h
+stdbool.h
+-
+string.h
+-
+stdlib.h
+-
+math.h
+-
+stdio.h
+-
+info.h
+E:/db_lab/db_lab4/info.h
+extmem.h
+E:/db_lab/db_lab4/extmem.h
+
