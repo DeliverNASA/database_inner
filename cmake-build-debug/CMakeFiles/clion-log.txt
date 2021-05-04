@@ -1,4 +1,4 @@
-"G:\Clion\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\db_lab\db_lab4
+"G:\Clion\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\db_lab\database_inner
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/db_lab/db_lab4/cmake-build-debug
+-- Build files have been written to: E:/db_lab/database_inner/cmake-build-debug

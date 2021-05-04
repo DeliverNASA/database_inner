@@ -1,4 +1,4 @@
-# Install script for directory: E:/db_lab/db_lab4
+# Install script for directory: E:/db_lab/database_inner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/db_lab/db_lab4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/db_lab/database_inner/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

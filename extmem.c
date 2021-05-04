@@ -130,7 +130,56 @@ unsigned char *readBlockFromDisk(unsigned int addr, Buffer *buf)
 
     while (bytePtr < blkPtr + buf->blkSize)
     {
-        ch = fgetc(fp);
+        ch = (char) fgetc(fp);
+        *bytePtr = ch;
+        bytePtr++;
+    }
+
+    fclose(fp);
+    buf->numFreeBlk--;
+    buf->numIO++;
+    return blkPtr;
+}
+
+
+unsigned char *readBlockFromDisk_bin(unsigned int addr, Buffer *buf)
+{
+    char filename[40];
+    unsigned char *blkPtr, *bytePtr;
+    char ch;
+
+    if (buf->numFreeBlk == 0)
+    {
+        perror("Buffer Overflows!\n");
+        return NULL;
+    }
+
+    blkPtr = buf->data;
+
+    while (blkPtr < buf->data + (buf->blkSize + 1) * buf->numAllBlk)
+    {
+        if (*blkPtr == BLOCK_AVAILABLE)
+            break;
+        else
+            blkPtr += buf->blkSize + 1;
+    }
+
+    sprintf(filename, "../data/%d.blk", addr);
+    FILE *fp = fopen(filename, "rb");
+
+    if (!fp)
+    {
+        perror("Reading Block Failed!\n");
+        return NULL;
+    }
+
+    *blkPtr = BLOCK_UNAVAILABLE;
+    blkPtr++;
+    bytePtr = blkPtr;
+
+    while (bytePtr < blkPtr + buf->blkSize)
+    {
+        ch = (char) fgetc(fp);
         *bytePtr = ch;
         bytePtr++;
     }

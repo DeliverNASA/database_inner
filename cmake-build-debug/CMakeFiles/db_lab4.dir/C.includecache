@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-E:/db_lab/db_lab4/Q2.c
-Q2.h
-E:/db_lab/db_lab4/Q2.h
+E:/db_lab/database_inner/Q3.c
+Q3.h
+E:/db_lab/database_inner/Q3.h
 
-E:/db_lab/db_lab4/Q2.h
+E:/db_lab/database_inner/Q3.h
+stdint.h
+-
 utils.h
-E:/db_lab/db_lab4/utils.h
+E:/db_lab/database_inner/utils.h
 block.h
-E:/db_lab/db_lab4/block.h
-info.h
-E:/db_lab/db_lab4/info.h
+E:/db_lab/database_inner/block.h
 
-E:/db_lab/db_lab4/block.h
+E:/db_lab/database_inner/block.h
 utils.h
-E:/db_lab/db_lab4/utils.h
+E:/db_lab/database_inner/utils.h
 info.h
-E:/db_lab/db_lab4/info.h
+E:/db_lab/database_inner/info.h
 
-E:/db_lab/db_lab4/extmem.h
+E:/db_lab/database_inner/extmem.h
 
-E:/db_lab/db_lab4/info.h
+E:/db_lab/database_inner/info.h
 
-E:/db_lab/db_lab4/utils.h
+E:/db_lab/database_inner/utils.h
 stdbool.h
 -
 string.h
@@ -40,7 +40,7 @@ math.h
 stdio.h
 -
 info.h
-E:/db_lab/db_lab4/info.h
+E:/db_lab/database_inner/info.h
 extmem.h
-E:/db_lab/db_lab4/extmem.h
+E:/db_lab/database_inner/extmem.h
 

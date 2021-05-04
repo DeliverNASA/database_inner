@@ -66,10 +66,10 @@ RM = "G:\Clion\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\db_lab\db_lab4
+CMAKE_SOURCE_DIR = E:\db_lab\database_inner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\db_lab\db_lab4\cmake-build-debug
+CMAKE_BINARY_DIR = E:\db_lab\database_inner\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\db_lab\db_lab4\cmake-build-debug\CMakeFiles E:\db_lab\db_lab4\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\db_lab\database_inner\cmake-build-debug\CMakeFiles E:\db_lab\database_inner\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\db_lab\db_lab4\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\db_lab\database_inner\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,6 +194,33 @@ Q2.s: Q2.c.s
 Q2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\db_lab4.dir\build.make CMakeFiles/db_lab4.dir/Q2.c.s
 .PHONY : Q2.c.s
+
+Q3.obj: Q3.c.obj
+
+.PHONY : Q3.obj
+
+# target to build an object file
+Q3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\db_lab4.dir\build.make CMakeFiles/db_lab4.dir/Q3.c.obj
+.PHONY : Q3.c.obj
+
+Q3.i: Q3.c.i
+
+.PHONY : Q3.i
+
+# target to preprocess a source file
+Q3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\db_lab4.dir\build.make CMakeFiles/db_lab4.dir/Q3.c.i
+.PHONY : Q3.c.i
+
+Q3.s: Q3.c.s
+
+.PHONY : Q3.s
+
+# target to generate assembly for a file
+Q3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\db_lab4.dir\build.make CMakeFiles/db_lab4.dir/Q3.c.s
+.PHONY : Q3.c.s
 
 block.obj: block.c.obj
 
@@ -318,6 +345,9 @@ help:
 	@echo ... Q2.obj
 	@echo ... Q2.i
 	@echo ... Q2.s
+	@echo ... Q3.obj
+	@echo ... Q3.i
+	@echo ... Q3.s
 	@echo ... block.obj
 	@echo ... block.i
 	@echo ... block.s

@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/db_lab/db_lab4/cmake-build-debug"/>
+				<Option working_dir="E:/db_lab/database_inner/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/db_lab/db_lab4/cmake-build-debug"/>
+				<Option working_dir="E:/db_lab/database_inner/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="db_lab4">
-				<Option output="E:/db_lab/db_lab4/cmake-build-debug/db_lab4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/db_lab/db_lab4/cmake-build-debug"/>
+				<Option output="E:/db_lab/database_inner/cmake-build-debug/db_lab4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/db_lab/database_inner/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -39,15 +39,15 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 db_lab4"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 db_lab4"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="db_lab4/fast">
-				<Option output="E:/db_lab/db_lab4/cmake-build-debug/db_lab4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/db_lab/db_lab4/cmake-build-debug"/>
+				<Option output="E:/db_lab/database_inner/cmake-build-debug/db_lab4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/db_lab/database_inner/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -57,60 +57,66 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 db_lab4/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 db_lab4/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/db_lab/db_lab4/cmake-build-debug"/>
+				<Option working_dir="E:/db_lab/database_inner/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/db_lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/mingw64/bin/mingw32-make.exe -f &quot;E:/db_lab/database_inner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/db_lab/db_lab4/Q1.c">
+		<Unit filename="E:/db_lab/database_inner/Q1.c">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/Q1.h">
+		<Unit filename="E:/db_lab/database_inner/Q1.h">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/Q2.c">
+		<Unit filename="E:/db_lab/database_inner/Q2.c">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/Q2.h">
+		<Unit filename="E:/db_lab/database_inner/Q2.h">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/block.c">
+		<Unit filename="E:/db_lab/database_inner/Q3.c">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/block.h">
+		<Unit filename="E:/db_lab/database_inner/Q3.h">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/extmem.c">
+		<Unit filename="E:/db_lab/database_inner/block.c">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/extmem.h">
+		<Unit filename="E:/db_lab/database_inner/block.h">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/info.h">
+		<Unit filename="E:/db_lab/database_inner/extmem.c">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/main.c">
+		<Unit filename="E:/db_lab/database_inner/extmem.h">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/utils.c">
+		<Unit filename="E:/db_lab/database_inner/info.h">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/utils.h">
+		<Unit filename="E:/db_lab/database_inner/main.c">
 			<Option target="db_lab4"/>
 		</Unit>
-		<Unit filename="E:/db_lab/db_lab4/CMakeLists.txt">
+		<Unit filename="E:/db_lab/database_inner/utils.c">
+			<Option target="db_lab4"/>
+		</Unit>
+		<Unit filename="E:/db_lab/database_inner/utils.h">
+			<Option target="db_lab4"/>
+		</Unit>
+		<Unit filename="E:/db_lab/database_inner/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
