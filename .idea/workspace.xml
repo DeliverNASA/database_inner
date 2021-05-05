@@ -15,115 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa242547-01fd-45e5-9b60-68b80c1725d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Q5.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q5.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1001.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1002.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1003.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1004.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1005.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1006.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1007.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1008.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1009.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1010.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1011.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1012.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1013.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1014.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1015.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1016.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1017.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1018.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1019.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1020.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1021.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1022.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1023.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1024.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1025.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1026.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1027.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1028.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1029.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1030.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1031.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/801.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/802.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/803.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/901.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/902.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/903.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/904.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/905.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/906.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/907.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/908.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/909.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/910.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/911.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/912.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/913.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/914.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/915.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/916.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/917.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/918.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/919.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/920.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/921.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/922.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/923.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/924.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/925.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/926.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/927.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/928.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/929.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/930.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/931.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/932.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/933.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/934.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/935.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/936.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/937.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/938.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/939.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/940.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/941.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/942.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/943.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/944.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/945.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/946.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q3.c" beforeDir="false" afterPath="$PROJECT_DIR$/Q3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q3.h" beforeDir="false" afterPath="$PROJECT_DIR$/Q3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q4.c" beforeDir="false" afterPath="$PROJECT_DIR$/Q4.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q4.h" beforeDir="false" afterPath="$PROJECT_DIR$/Q4.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q3.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q3.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q4.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q4.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/db_lab4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/db_lab4.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/db_lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/db_lab4.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.h" beforeDir="false" afterPath="$PROJECT_DIR$/info.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,9 +73,9 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="db_lab4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="db_lab4" TARGET_NAME="db_lab4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="db_lab4" RUN_TARGET_NAME="db_lab4">
@@ -211,6 +104,7 @@
       <workItem from="1620128751187" duration="16384000" />
       <workItem from="1620178113125" duration="901000" />
       <workItem from="1620179166659" duration="21550000" />
+      <workItem from="1620203119484" duration="46000" />
     </task>
     <servers />
   </component>
