@@ -4,7 +4,11 @@
 
 #include "block.h"
 int getDataInBlock(block *blk, int id) {
-    return StringToInt(&blk->data[id * 8], 4);
+    return StringToInt(&blk->data[id * data_len], 4);
+}
+
+int getSecondDataInBlock(block *blk, int id) {
+    return StringToInt(&blk->data[id * data_len] + 4, 4);
 }
 
 void writeDataToBlock(block *blk, int id, unsigned char* p_data) {

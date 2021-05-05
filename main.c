@@ -3,6 +3,7 @@
 #include "Q1.h"
 #include "Q2.h"
 #include "Q3.h"
+#include "Q4.h"
 
 int main() {
     Buffer buf; /* A buffer */
@@ -21,7 +22,9 @@ int main() {
     // test Q2
 //    Q2(&buf, 1, 16);
 //    Q2(&buf, 17, 48);
-    Q3(&buf, 55, 'S');
+//    Q3(&buf, 55, 'S');
+//    printf("%llu\n", sizeof(block_j));
+    Q4(&buf);
 
     return 0;
 }

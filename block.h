@@ -16,6 +16,9 @@ typedef struct block {
 // 获取块中第id个元素
 int getDataInBlock(block *blk, int id);
 
+// 获取块中第id个元素的第二个属性值
+int getSecondDataInBlock(block *blk, int id);
+
 // 将元素写入块中第id个位置
 void writeDataToBlock(block *blk, int id, unsigned char* p_data);
 

@@ -92,6 +92,12 @@
 		<Unit filename="E:/db_lab/database_inner/Q3.h">
 			<Option target="db_lab4"/>
 		</Unit>
+		<Unit filename="E:/db_lab/database_inner/Q4.c">
+			<Option target="db_lab4"/>
+		</Unit>
+		<Unit filename="E:/db_lab/database_inner/Q4.h">
+			<Option target="db_lab4"/>
+		</Unit>
 		<Unit filename="E:/db_lab/database_inner/block.c">
 			<Option target="db_lab4"/>
 		</Unit>

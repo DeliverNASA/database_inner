@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/db_lab/database_inner/Q3.c
-Q3.h
-E:/db_lab/database_inner/Q3.h
+E:/db_lab/database_inner/Q4.c
+Q4.h
+E:/db_lab/database_inner/Q4.h
 
-E:/db_lab/database_inner/Q3.h
-stdint.h
--
-utils.h
-E:/db_lab/database_inner/utils.h
+E:/db_lab/database_inner/Q4.h
 block.h
 E:/db_lab/database_inner/block.h
 

@@ -222,6 +222,33 @@ Q3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\db_lab4.dir\build.make CMakeFiles/db_lab4.dir/Q3.c.s
 .PHONY : Q3.c.s
 
+Q4.obj: Q4.c.obj
+
+.PHONY : Q4.obj
+
+# target to build an object file
+Q4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\db_lab4.dir\build.make CMakeFiles/db_lab4.dir/Q4.c.obj
+.PHONY : Q4.c.obj
+
+Q4.i: Q4.c.i
+
+.PHONY : Q4.i
+
+# target to preprocess a source file
+Q4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\db_lab4.dir\build.make CMakeFiles/db_lab4.dir/Q4.c.i
+.PHONY : Q4.c.i
+
+Q4.s: Q4.c.s
+
+.PHONY : Q4.s
+
+# target to generate assembly for a file
+Q4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\db_lab4.dir\build.make CMakeFiles/db_lab4.dir/Q4.c.s
+.PHONY : Q4.c.s
+
 block.obj: block.c.obj
 
 .PHONY : block.obj
@@ -348,6 +375,9 @@ help:
 	@echo ... Q3.obj
 	@echo ... Q3.i
 	@echo ... Q3.s
+	@echo ... Q4.obj
+	@echo ... Q4.i
+	@echo ... Q4.s
 	@echo ... block.obj
 	@echo ... block.i
 	@echo ... block.s
