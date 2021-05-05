@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/db_lab4.dir/Q2.c.obj"
   "CMakeFiles/db_lab4.dir/Q3.c.obj"
   "CMakeFiles/db_lab4.dir/Q4.c.obj"
+  "CMakeFiles/db_lab4.dir/Q5.c.obj"
   "CMakeFiles/db_lab4.dir/block.c.obj"
   "CMakeFiles/db_lab4.dir/extmem.c.obj"
   "CMakeFiles/db_lab4.dir/main.c.obj"

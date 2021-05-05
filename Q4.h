@@ -33,6 +33,8 @@ typedef struct block_join {
     data_J data[4];
 } block_j;
 
+// 将数据写入联合块
+void writeDataToBlockJoin(Buffer *buf, int p_R, int p_S);
 
 int Q4(Buffer *buf);
 #endif //DB_LAB4_Q4_H

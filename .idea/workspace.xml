@@ -15,217 +15,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa242547-01fd-45e5-9b60-68b80c1725d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Q4.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q4.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/701.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/702.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/703.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/704.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/705.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/706.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/707.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/708.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/709.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/710.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/711.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/712.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/713.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/714.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/715.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/716.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/717.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/718.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/719.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/720.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/721.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/722.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/723.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/724.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/725.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/726.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/727.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/728.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/729.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/730.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/731.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/732.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/733.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/734.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/735.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/736.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/737.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/738.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/739.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/740.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/741.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/742.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/743.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/744.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/745.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/746.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/747.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/748.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/749.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/750.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/751.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/752.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/753.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/754.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/755.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/756.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/757.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/758.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/759.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/760.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/761.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/762.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/763.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/764.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/765.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/766.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/767.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/768.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/769.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/770.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/771.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/772.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/773.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/774.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/775.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/776.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/777.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/778.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/779.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/780.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/781.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/782.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/783.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/784.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/785.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/786.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/787.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/788.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/789.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/790.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/791.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/792.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/793.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/794.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/795.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/796.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/797.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/798.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/799.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/800.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1001.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1002.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1003.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1004.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1005.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1006.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1007.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1008.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1009.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1010.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1011.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1012.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1013.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1014.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1015.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1016.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1017.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1018.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1019.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1020.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1021.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1022.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1023.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1024.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1025.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1026.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1027.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1028.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1029.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1030.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1031.blk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/801.blk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/802.blk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/803.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/804.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/805.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/806.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/807.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/808.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/809.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/810.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/811.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/812.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/813.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/814.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/815.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/816.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/817.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/818.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/819.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/820.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/821.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/822.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/823.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/824.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/825.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/826.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/827.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/828.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/829.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/830.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/831.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/832.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/833.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/834.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/835.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/836.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/837.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/838.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/839.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/840.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/841.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/842.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/843.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/844.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/845.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/846.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/847.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/848.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/849.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/850.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/851.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/852.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/853.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/854.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/855.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/856.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/857.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/858.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/859.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/860.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/861.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/862.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/863.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/864.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/865.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/866.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/867.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/868.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/869.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/870.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/871.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/872.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/873.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/874.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/875.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/876.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/877.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/878.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/879.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/880.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/881.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/882.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/883.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/884.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/885.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/886.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/887.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/888.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/889.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/890.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/891.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/892.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/893.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/894.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/895.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/896.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/897.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/898.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/899.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/900.blk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/901.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/902.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/903.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/904.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/905.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/906.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/907.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/908.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/909.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/910.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/911.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/912.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/913.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/914.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/915.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/916.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/917.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/918.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/919.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/920.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/921.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/922.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/923.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/924.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/925.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/926.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/927.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/928.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/929.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/930.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/931.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/932.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/933.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/934.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/935.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/936.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/937.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/938.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/939.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/940.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/941.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/942.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/943.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/944.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/945.blk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/946.blk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/block.c" beforeDir="false" afterPath="$PROJECT_DIR$/block.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/block.h" beforeDir="false" afterPath="$PROJECT_DIR$/block.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q3.c" beforeDir="false" afterPath="$PROJECT_DIR$/Q3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q3.h" beforeDir="false" afterPath="$PROJECT_DIR$/Q3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q4.c" beforeDir="false" afterPath="$PROJECT_DIR$/Q4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q4.h" beforeDir="false" afterPath="$PROJECT_DIR$/Q4.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q3.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q3.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q4.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q4.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/depend.internal" afterDir="false" />
@@ -239,7 +122,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/db_lab4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/db_lab4.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/db_lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/db_lab4.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/700.blk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/info.h" beforeDir="false" afterPath="$PROJECT_DIR$/info.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -298,6 +180,11 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="db_lab4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="db_lab4" TARGET_NAME="db_lab4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="db_lab4" RUN_TARGET_NAME="db_lab4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -323,7 +210,7 @@
       <workItem from="1620099466322" duration="28258000" />
       <workItem from="1620128751187" duration="16384000" />
       <workItem from="1620178113125" duration="901000" />
-      <workItem from="1620179166659" duration="14361000" />
+      <workItem from="1620179166659" duration="21550000" />
     </task>
     <servers />
   </component>

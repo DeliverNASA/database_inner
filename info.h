@@ -33,4 +33,12 @@
 #define data_join_per_block 4
 #define data_join_addr 701
 
+#define intersection_addr 801
+#define union_addr 901
+#define dif_addr 1001
+
+#define op_intersection 1
+#define op_union 2
+#define op_differ 3
+
 #endif //DB_LAB4_INFO_H

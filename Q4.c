@@ -4,11 +4,11 @@
 
 #include "Q4.h"
 
-int count = 0;
-int w_addr = data_join_addr;
+static int count = 0;
+static int w_addr = data_join_addr;
 block_j *blk_j;
-block *blkR;
-block *blkS;
+static block *blkR;
+static block *blkS;
 
 
 void writeDataToBlockJoin(Buffer *buf, int p_R, int p_S) {
@@ -16,7 +16,7 @@ void writeDataToBlockJoin(Buffer *buf, int p_R, int p_S) {
     memcpy(blk_j->data[count % 4].S_data, &blkS->data[p_S *data_len], data_len);
     count++;
     if (count % data_join_per_block == 0) {
-        printf("½á¹ûĞ´Èë´ÅÅÌ¿é£º%d\n", w_addr);
+        printf("ç»“æœå†™å…¥ç£ç›˜å—ï¼š%d\n", w_addr);
         writeBlockToDisk((unsigned char*) blk_j->data, w_addr++, buf);
         blk_j = (block_j*) getNewBlockInBuffer(buf);
     }
@@ -27,7 +27,7 @@ int Q4(Buffer *buf) {
     int addr_R = sort_addr_R;
     int addr_S = sort_addr_S;
 
-    // 1. »ñÈ¡×îĞ¡µÄRÊı¾İ¿éºÍ×îĞ¡µÄSÊı¾İ¿é
+    // 1. è·å–æœ€å°çš„Ræ•°æ®å—å’Œæœ€å°çš„Sæ•°æ®å—
     if ((blkR = (block *) readBlockFromDisk(addr_R++, buf)) == NULL) {
         perror("Reading block failed.\n");
         return -1;
@@ -37,7 +37,7 @@ int Q4(Buffer *buf) {
         return -1;
     }
 
-    // 2. °´Ë³Ğò»ñÈ¡Ò»¸öRÔª×éºÍÒ»¸öSÔª×é
+    // 2. æŒ‰é¡ºåºè·å–ä¸€ä¸ªRå…ƒç»„å’Œä¸€ä¸ªSå…ƒç»„
     int p_R = 0, p_S = 0;
     int back_R;
     int A, C, temp;
@@ -46,13 +46,13 @@ int Q4(Buffer *buf) {
 
     blk_j = (block_j *) getNewBlockInBuffer(buf);
 
-    // 3. ±È½ÏR.AºÍS.CµÄ´óĞ¡£º
-    //    Èç¹ûA = C£¬½«Ôª×é×éºÏ³ÉĞÂµÄÔª£¬Ğ´ÈëÊä³ö»º³åÇø£¬S»òRÖ¸ÕëºóÃæµÄÖµºÍµ±Ç°Ò»ÑùµÄÍùºóÒÆ¶¯
-    //    Èç¹ûA > C£¬SÖ¸ÕëÍùºóÒÆ¶¯£»
-    //    Èç¹ûA < C£¬RÖ¸ÕëÍùºóÒÆ¶¯£»
-    // 4. ÖØ¸´ÉÏÊö¹ı³Ì£¬Ö±µ½ËùÓĞµÄÔª×é¶¼±éÀúÍê±Ï
+    // 3. æ¯”è¾ƒR.Aå’ŒS.Cçš„å¤§å°ï¼š
+    //    å¦‚æœA = Cï¼Œå°†å…ƒç»„ç»„åˆæˆæ–°çš„å…ƒï¼Œå†™å…¥è¾“å‡ºç¼“å†²åŒºï¼ŒSæˆ–RæŒ‡é’ˆåé¢çš„å€¼å’Œå½“å‰ä¸€æ ·çš„å¾€åç§»åŠ¨
+    //    å¦‚æœA > Cï¼ŒSæŒ‡é’ˆå¾€åç§»åŠ¨ï¼›
+    //    å¦‚æœA < Cï¼ŒRæŒ‡é’ˆå¾€åç§»åŠ¨ï¼›
+    // 4. é‡å¤ä¸Šè¿°è¿‡ç¨‹ï¼Œç›´åˆ°æ‰€æœ‰çš„å…ƒç»„éƒ½éå†å®Œæ¯•
     while ((addr_R <= sort_addr_end_R || p_R < data_num) && (addr_S <= sort_addr_end_S || p_S < data_num)) {
-        // µ½µ×µÄÊ±ºòĞèÒªµ÷ÈëĞÂR¿é
+        // åˆ°åº•çš„æ—¶å€™éœ€è¦è°ƒå…¥æ–°Rå—
         if (p_R == data_num) {
             freeBlockInBuffer((unsigned char *) blkR, buf);
             if ((blkR = (block *) readBlockFromDisk(addr_R++, buf)) == NULL) {
@@ -61,7 +61,7 @@ int Q4(Buffer *buf) {
             }
             p_R = 0;
         }
-        // µ½µ×µÄÊ±ºòĞèÒªµ÷ÈëĞÂS¿é
+        // åˆ°åº•çš„æ—¶å€™éœ€è¦è°ƒå…¥æ–°Så—
         if (p_S == data_num) {
             freeBlockInBuffer((unsigned char *) blkS, buf);
             if ((blkS = (block *) readBlockFromDisk(addr_S++, buf)) == NULL) {
@@ -79,20 +79,20 @@ int Q4(Buffer *buf) {
 //            printf("addr_R = %d, p_R = %d\n", addr_R - 1, p_R);
 //            printf("addr_S = %d, p_S = %d\n", addr_R - 1, p_S);
             writeDataToBlockJoin(buf, p_R, p_S);
-            // ÏòÇ°×ßºó¼ÇµÃ»ØÀ´
-            // ±£´æÔ­À´µÄR¿é¡¢R¿éÄÚÖ¸Õë¡¢ÏÂÒ»¿éµÄ±àºÅ
+            // å‘å‰èµ°åè®°å¾—å›æ¥
+            // ä¿å­˜åŸæ¥çš„Rå—ã€Rå—å†…æŒ‡é’ˆã€ä¸‹ä¸€å—çš„ç¼–å·
             back_blkR = blkR;
             back_R = p_R;
             back_addr_R = addr_R;
 
-            // ÔÙ¶ÁÈ¡Ò»¿éÁÙÊ±µÄ¿é¸øblkR
+            // å†è¯»å–ä¸€å—ä¸´æ—¶çš„å—ç»™blkR
             if ((blkR = (block *) readBlockFromDisk(addr_R - 1, buf)) == NULL) {
                 perror("Reading block failed.\n");
                 return -1;
             }
 
             while ((addr_R <= sort_addr_end_R || p_R < data_num)) {
-                // Èç¹ûµ½¿éµ×µÄÊ±ºò¼°Ê±µ÷Èë
+                // å¦‚æœåˆ°å—åº•çš„æ—¶å€™åŠæ—¶è°ƒå…¥
                 p_R++;
                 if (p_R == data_num && addr_R <= sort_addr_end_R) {
                     freeBlockInBuffer((unsigned char *) blkR, buf);
@@ -102,7 +102,7 @@ int Q4(Buffer *buf) {
                     }
                     p_R = 0;
                 }
-                // ÄÜ¹»¼ÌĞøÆ¥Åäµ½¾ÍĞ´Èë
+                // èƒ½å¤Ÿç»§ç»­åŒ¹é…åˆ°å°±å†™å…¥
                 if (getDataInBlock(blkR, p_R) == A) {
 //                    printf("A = C = %d, B = %d, D = %d\n", A, getSecondDataInBlock(blkR, p_R), getSecondDataInBlock(blkS, p_S));
 //                    printf("addr_R = %d, p_R = %d\n", addr_R - 1, p_R);
@@ -113,7 +113,7 @@ int Q4(Buffer *buf) {
                 }
             }
 
-            // ¸´Ô­
+            // å¤åŸ
             freeBlockInBuffer((unsigned char*) blkR->data, buf);
             blkR = back_blkR;
             p_R = back_R;
@@ -129,5 +129,8 @@ int Q4(Buffer *buf) {
     if (count % data_join_per_block != 0) {
         writeBlockToDisk((unsigned char *) blk_j->data, w_addr, buf);
     }
+
+    freeAllBlockInBuffer(buf);
+
     return 0;
 }

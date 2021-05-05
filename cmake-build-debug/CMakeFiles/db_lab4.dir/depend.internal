@@ -28,6 +28,13 @@ CMakeFiles/db_lab4.dir/Q4.c.obj
  E:/db_lab/database_inner/extmem.h
  E:/db_lab/database_inner/info.h
  E:/db_lab/database_inner/utils.h
+CMakeFiles/db_lab4.dir/Q5.c.obj
+ E:/db_lab/database_inner/Q5.c
+ E:/db_lab/database_inner/Q5.h
+ E:/db_lab/database_inner/block.h
+ E:/db_lab/database_inner/extmem.h
+ E:/db_lab/database_inner/info.h
+ E:/db_lab/database_inner/utils.h
 CMakeFiles/db_lab4.dir/block.c.obj
  E:/db_lab/database_inner/block.c
  E:/db_lab/database_inner/block.h
@@ -42,6 +49,7 @@ CMakeFiles/db_lab4.dir/main.c.obj
  E:/db_lab/database_inner/Q2.h
  E:/db_lab/database_inner/Q3.h
  E:/db_lab/database_inner/Q4.h
+ E:/db_lab/database_inner/Q5.h
  E:/db_lab/database_inner/block.h
  E:/db_lab/database_inner/extmem.h
  E:/db_lab/database_inner/info.h

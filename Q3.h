@@ -19,7 +19,6 @@
  */
 
 // 为节省空间，按字节对齐
-#pragma pack (1)
 
 // 索引项，占4个字节
 typedef struct index_entry {
