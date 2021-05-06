@@ -17,6 +17,13 @@ int Q1(Buffer *buf, int S_C) {
     char str[5];
     write_blk = getNewBlockInBuffer(buf);
 
+    printf("\n");
+    printf("-----------------------\n");
+    printf("  查询S_C = %d的数据\n", S_C);
+    printf("-----------------------\n");
+    printf("\n");
+
+
     for (int j = S_start; j <= S_end; j++) {
         // 从磁盘中读一个block到buf中
         if ((blk = readBlockFromDisk(j, buf)) == NULL) {
@@ -24,7 +31,7 @@ int Q1(Buffer *buf, int S_C) {
             return -1;
         }
 
-        printf("读入数据块%d\n", j);
+//        printf("读入数据块%d\n", j);
 
         // 每个磁盘块大小为64字节，有7个数据和1个后续磁盘块地址
         for (int i = 0; i < data_num; i++) {
@@ -39,6 +46,7 @@ int Q1(Buffer *buf, int S_C) {
             count++;
             // 缓冲区满之后将数据写入
             if (count % data_num == 0) {
+                printf("写入磁盘%d\n\n", write_start_addr);
                 writeBlockToDisk(write_blk, write_start_addr++, buf);
                 freeBlockInBuffer(write_blk, buf);
                 write_blk = getNewBlockInBuffer(buf);
@@ -49,12 +57,12 @@ int Q1(Buffer *buf, int S_C) {
     }
     // 最后一次还有数据的话，还要将其写入
     if (count % data_num) {
+        printf("写入磁盘%d\n", write_start_addr);
         writeBlockToDisk(write_blk, write_start_addr, buf);
     }
 
     printf("\n");
     printf("结果共有%d条\n", count);
-    printf("注：结果写入磁盘\n");
     printf("I/O读写次数：%lu\n", buf->numIO);
 
     return 0;

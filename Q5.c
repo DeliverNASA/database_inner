@@ -27,19 +27,26 @@ int Q5(Buffer *buf, int op) {
     int addr_S = sort_addr_S;
     count = 0;
 
+    printf("\n");
+    printf("-----------------------\n");
     switch (op) {
         case op_intersection:
             w_addr = intersection_addr;
+            printf("     S和R的交集\n");
             break;
         case op_union:
             w_addr = union_addr;
+            printf("     S和R的并集\n");
             break;
         case op_differ:
             w_addr = dif_addr;
+            printf("  S和R的差集（S-R)\n");
             break;
         default:
             break;
     }
+    printf("-----------------------\n");
+    printf("\n");
 
     // 1. 获取最小的R数据块和最小的S数据块
     if ((blkR = (block *) readBlockFromDisk(addr_R++, buf)) == NULL) {
@@ -195,8 +202,8 @@ int Q5(Buffer *buf, int op) {
         writeBlockToDisk((unsigned char*) w_blk, w_addr, buf);
     }
 
-    printf("总共有%d条数据\n", count);
     printf("\n");
+    printf("总共有%d个元组\n", count);
 
 
     freeAllBlockInBuffer(buf);

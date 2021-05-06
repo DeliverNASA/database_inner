@@ -18,13 +18,12 @@
  * （模拟实现 select S.C, S.D from S where S.C = 50 ）
  */
 
-// 为节省空间，按字节对齐
 
 // 索引项，占4个字节
 typedef struct index_entry {
     uint8_t key;        // 键值
-    uint16_t blk_num;   // 块号
     uint8_t id_num;     // 块内偏移
+    uint16_t blk_num;   // 块号
 } id_entry;
 
 // 索引文件，一个文件包含16个索引项（64 = 16 * 4）

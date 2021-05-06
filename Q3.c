@@ -4,10 +4,11 @@
 
 #include "Q3.h"
 
-/* åŸºæœ¬æ€è·¯ï¼š
- * 1ï¼Œå»ºç«‹ç´¢å¼•ï¼šå°†æ’åºå¥½çš„å—ä¾æ¬¡è¯»å…¥ï¼Œä¸ºæ¯ä¸€ä¸ªå…ƒç»„å»ºç«‹ä¸€ä¸ªç´¢å¼•é¡¹ï¼Œå†™å…¥ç´¢å¼•æ–‡ä»¶ä¸­ï¼Œæ»¡çš„è¯å†™å…¥ç£ç›˜
- * 2. ç´¢å¼•æŸ¥æ‰¾ï¼šè¾“å…¥ä¸€ä¸ªé”®å€¼ï¼Œè¯»ç´¢å¼•æ–‡ä»¶ï¼ˆå¯ä»¥é‡‡ç”¨äºŒåˆ†æ³•ï¼‰ï¼ŒæŸ¥æ‰¾å«æœ‰è¯¥é”®å€¼çš„ç´¢å¼•é¡¹æ‰€åœ¨çš„ä½ç½®
- * 3. å…ƒç»„è·å–ï¼šæ ¹æ®ç´¢å¼•é¡¹è®¿é—®ç£ç›˜ï¼Œè¯»å‡ºå…ƒç»„
+
+/* »ù±¾Ë¼Â·£º
+ * 1£¬½¨Á¢Ë÷Òı£º½«ÅÅĞòºÃµÄ¿éÒÀ´Î¶ÁÈë£¬ÎªÃ¿Ò»¸öÔª×é½¨Á¢Ò»¸öË÷ÒıÏî£¬Ğ´ÈëË÷ÒıÎÄ¼şÖĞ£¬ÂúµÄ»°Ğ´Èë´ÅÅÌ
+ * 2. Ë÷Òı²éÕÒ£ºÊäÈëÒ»¸ö¼üÖµ£¬¶ÁË÷ÒıÎÄ¼ş£¨¿ÉÒÔ²ÉÓÃ¶ş·Ö·¨£©£¬²éÕÒº¬ÓĞ¸Ã¼üÖµµÄË÷ÒıÏîËùÔÚµÄÎ»ÖÃ
+ * 3. Ôª×é»ñÈ¡£º¸ù¾İË÷ÒıÏî·ÃÎÊ´ÅÅÌ£¬¶Á³öÔª×é
  */
 
 void Q3(Buffer *buf, int target, char relationship) {
@@ -16,8 +17,19 @@ void Q3(Buffer *buf, int target, char relationship) {
     } else {
         setupIndex(buf, sort_addr + 17, sort_addr + 48, 'S');
     }
+    // ÇåÁã
+    printf("\n");
+    printf("-----------------------\n");
+    if (relationship == 'R') {
+        printf("  ²éÑ¯R_A = %dµÄÊı¾İ\n", target);
+    } else {
+        printf("  ²éÑ¯S_C = %dµÄÊı¾İ\n", target);
+    }
+    printf("-----------------------\n");
+    printf("\n");
+    buf->numIO = 0;
     if(!search(buf, target, relationship)) {
-        printf("å…³ç³»%cä¸­æ‰¾ä¸åˆ°ä¸»å±æ€§å€¼ä¸º%dè®°å½•\n",relationship, target);
+        printf("¹ØÏµ%cÖĞÕÒ²»µ½ÊôĞÔÖµÎª%d¼ÇÂ¼\n", relationship, target);
     }
 }
 
@@ -25,9 +37,6 @@ int setupIndex(Buffer *buf, int blk_start, int blk_end, char relationship) {
     int count = 0;
     block *blk;
     id_file* f = (id_file*) getNewBlockInBuffer(buf);
-//    printf("%llu", sizeof(id_entry));
-//    printf("%llu", sizeof(id_file));
-//    printf("%llu", sizeof(block));
     int w_addr;
     if (relationship == 'R') {
         w_addr = index_addr_R ;
@@ -43,10 +52,7 @@ int setupIndex(Buffer *buf, int blk_start, int blk_end, char relationship) {
             f->entry[count].key = getDataInBlock(blk, j);
             f->entry[count].blk_num = addr;
             f->entry[count].id_num = j;
-            // å¦‚æœå½“å‰ç´¢å¼•æ–‡ä»¶å·²æ»¡ï¼Œå†™å…¥ç£ç›˜
             count++;
-            // ç‰¹åˆ«æ³¨æ„ï¼šctrl+zçš„ASCIIç æ˜¯1AH
-            // åœ¨windowsä¸‹è¯»å–çš„æ—¶å€™ä¼šè®¤ä¸ºæ˜¯EOFå¯¼è‡´æ•°æ®æ²¡æ³•å…¨éƒ¨è¯»å‡º
             if (count == index_per_block) {
                 writeBlockToDisk((unsigned char*) f, w_addr++, buf);
                 f = (id_file*) getNewBlockInBuffer(buf);
@@ -55,26 +61,25 @@ int setupIndex(Buffer *buf, int blk_start, int blk_end, char relationship) {
         }
         freeBlockInBuffer((unsigned char*) blk, buf);
     }
-    // æœ€åç´¢å¼•æ–‡ä»¶å³ä½¿ä¸æ»¡ä¹Ÿè¦å†™å…¥
+    // ×îºóË÷ÒıÎÄ¼ş¼´Ê¹²»ÂúÒ²ÒªĞ´Èë
     if (count > 0) {
         writeBlockToDisk((unsigned char*) f, w_addr, buf);
     }
-
     return 0;
 }
 
 int searchIndex(Buffer *buf, id_file *f, int target, block *w_blk, int *count) {
-    block *blk = NULL;     // æš‚å­˜è·å–çš„æ•°æ®å—
+    block *blk = NULL;     // Ôİ´æ»ñÈ¡µÄÊı¾İ¿é
     int last_blk = -1;
     id_entry entry;
     for (int i = 0; i < index_per_block; i++) {
         entry = f->entry[i];
         if (entry.key == target) {
-            // å¦‚æœå‰åå—æ˜¯ä¸€è‡´çš„è¯æ— éœ€é‡å¤è·å–æ•°æ®å—
-            // å¦‚æœä¸ç›¸åŒçš„è¯è·å–æ–°æ•°æ®å—å¹¶ä¸”æ›´æ–°last_blk
+            // Èç¹ûÇ°ºó¿éÊÇÒ»ÖÂµÄ»°ÎŞĞèÖØ¸´»ñÈ¡Êı¾İ¿é
+            // Èç¹û²»ÏàÍ¬µÄ»°»ñÈ¡ĞÂÊı¾İ¿é²¢ÇÒ¸üĞÂlast_blk
             if (entry.blk_num != last_blk) {
-                printf("æœç´¢æ•°æ®å—%d\n", entry.blk_num);
-                // ä¹‹å‰è·å–æ•°æ®å—çš„è¯ï¼Œè®°å¾—åŠæ—¶é‡Šæ”¾
+                printf("ËÑË÷Êı¾İ¿é%d\n", entry.blk_num);
+                // Ö®Ç°»ñÈ¡Êı¾İ¿éµÄ»°£¬¼ÇµÃ¼°Ê±ÊÍ·Å
                 if (last_blk != -1) {
                     freeBlockInBuffer((unsigned char*) blk, buf);
                 }
@@ -117,13 +122,16 @@ int search(Buffer *buf, int target, char relationship) {
 
     w_blk = (block*) getNewBlockInBuffer(buf);
     for (int addr = id_addr; addr <= id_addr_end; addr++) {
+        printf("ËÑË÷Ë÷Òı¿é%d\n", addr);
+        // ÌØ±ğ×¢Òâ£ºctrl+zµÄASCIIÂëÊÇ1AH
+        // ÔÚwindowsÏÂ¶ÁÈ¡µÄÊ±ºò»áÈÏÎªÊÇEOFµ¼ÖÂÊı¾İÃ»·¨È«²¿¶Á³ö
         if ((f = (id_file*) readBlockFromDisk_bin(addr, buf)) == NULL) {
             perror("Reading block failed.\n");
             return -1;
         }
-        // æœ€å¤§å€¼æ¯”ç›®æ ‡å°ï¼šä¸‹ä¸€ä¸ªç´¢å¼•å—
-        // æœ€å°å€¼æ¯”ç›®æ ‡å¤§ï¼šé€€å‡º
-        // æœ€å¤§å€¼å¤§ï¼Œæœ€å°å€¼å°ï¼šåœ¨å½“å‰ç´¢å¼•å—æœç´¢
+        // ×î´óÖµ±ÈÄ¿±êĞ¡£ºÏÂÒ»¸öË÷Òı¿é
+        // ×îĞ¡Öµ±ÈÄ¿±ê´ó£ºÍË³ö
+        // ×î´óÖµ´ó£¬×îĞ¡ÖµĞ¡£ºÔÚµ±Ç°Ë÷Òı¿éËÑË÷
         if (f->entry[index_per_block - 1].key < target) {
             freeBlockInBuffer((unsigned char*)f, buf);
             continue;
@@ -131,17 +139,25 @@ int search(Buffer *buf, int target, char relationship) {
             freeBlockInBuffer((unsigned char*)f, buf);
             break;
         } else {
-            printf("æœç´¢ç´¢å¼•å—%d\n", addr);
             searchIndex(buf, f, target, w_blk, &count);
+            // ×î´óÖµ´ó£¬Ö±½ÓÍË³ö£¬ÉÙ¶ÁÒ»¸ö¿é
+            if (f->entry[index_per_block - 1].key > target) {
+                break;
+            }
         }
     }
 
     if (count == 0) {
         return 0;
     }
-    // å°†å‰©ä½™çš„è®°å½•è¿˜æ²¡å†™å…¥
+    // ½«Ê£ÓàµÄ¼ÇÂ¼»¹Ã»Ğ´Èë
     if (count % data_num != 0) {
         writeBlockToDisk((unsigned char *) w_blk, 700, buf);
     }
+
+    printf("\n");
+    printf("½á¹û¹²ÓĞ%dÌõ\n", count);
+    printf("I/O¶ÁĞ´´ÎÊı£º%lu\n", buf->numIO);
+
     return 1;
 }

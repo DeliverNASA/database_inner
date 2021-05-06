@@ -26,7 +26,7 @@
 #define index_addr_R 501         // R索引文件起始位置
 #define index_addr_end_R 507     // R索引文件终止位置
 #define index_addr_S 601         // S索引文件起始位置
-#define index_addr_end_S 607     // S索引文件终止位置
+#define index_addr_end_S 614     // S索引文件终止位置
 
 #define index_per_block 16
 

@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
-E:/db_lab/database_inner/Q5.c
-Q5.h
-E:/db_lab/database_inner/Q5.h
+E:/db_lab/database_inner/Q1.h
+extmem.h
+E:/db_lab/database_inner/extmem.h
+
+E:/db_lab/database_inner/Q2.h
+utils.h
+E:/db_lab/database_inner/utils.h
+block.h
+E:/db_lab/database_inner/block.h
+info.h
+E:/db_lab/database_inner/info.h
+
+E:/db_lab/database_inner/Q3.h
+stdint.h
+-
+utils.h
+E:/db_lab/database_inner/utils.h
+block.h
+E:/db_lab/database_inner/block.h
+
+E:/db_lab/database_inner/Q4.h
+block.h
+E:/db_lab/database_inner/block.h
 
 E:/db_lab/database_inner/Q5.h
 block.h
@@ -23,6 +43,20 @@ E:/db_lab/database_inner/info.h
 E:/db_lab/database_inner/extmem.h
 
 E:/db_lab/database_inner/info.h
+
+E:/db_lab/database_inner/main.c
+stdio.h
+-
+Q1.h
+E:/db_lab/database_inner/Q1.h
+Q2.h
+E:/db_lab/database_inner/Q2.h
+Q3.h
+E:/db_lab/database_inner/Q3.h
+Q4.h
+E:/db_lab/database_inner/Q4.h
+Q5.h
+E:/db_lab/database_inner/Q5.h
 
 E:/db_lab/database_inner/utils.h
 stdbool.h
