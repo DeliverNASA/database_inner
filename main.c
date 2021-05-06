@@ -22,12 +22,12 @@ int main() {
     // test Q2
 //    Q2(&buf, 1, 16);
 //    Q2(&buf, 17, 48);
-//    Q3(&buf, 50, 'S');
+    Q3(&buf, 50, 'S');
 //    printf("%llu\n", sizeof(block_j));
 //    Q4(&buf);
-    Q5(&buf, op_intersection);
-    Q5(&buf, op_union);
-    Q5(&buf, op_differ);
+//    Q5(&buf, op_intersection);
+//    Q5(&buf, op_union);
+//    Q5(&buf, op_differ);
 
     return 0;
 }

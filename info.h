@@ -41,4 +41,6 @@
 #define op_union 2
 #define op_differ 3
 
+#define index_search_addr 151
+
 #endif //DB_LAB4_INFO_H

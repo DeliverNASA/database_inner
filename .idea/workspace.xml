@@ -15,36 +15,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa242547-01fd-45e5-9b60-68b80c1725d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q1.c" beforeDir="false" afterPath="$PROJECT_DIR$/Q1.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Q3.c" beforeDir="false" afterPath="$PROJECT_DIR$/Q3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q3.h" beforeDir="false" afterPath="$PROJECT_DIR$/Q3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q4.c" beforeDir="false" afterPath="$PROJECT_DIR$/Q4.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q5.c" beforeDir="false" afterPath="$PROJECT_DIR$/Q5.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q1.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q1.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q3.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q3.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q4.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q4.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q5.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/Q5.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/db_lab4.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/db_lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/db_lab4.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/601.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/601.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/602.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/602.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/603.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/603.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/604.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/604.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/605.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/605.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/606.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/606.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/607.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/607.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/608.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/608.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/609.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/609.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/610.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/610.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/611.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/611.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/612.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/612.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/613.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/613.blk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/614.blk" beforeDir="false" afterPath="$PROJECT_DIR$/data/614.blk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/700.blk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/info.h" beforeDir="false" afterPath="$PROJECT_DIR$/info.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -108,11 +87,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -131,6 +105,7 @@
       <workItem from="1620179166659" duration="21550000" />
       <workItem from="1620203119484" duration="46000" />
       <workItem from="1620219412683" duration="11854000" />
+      <workItem from="1620267540979" duration="462000" />
     </task>
     <servers />
   </component>

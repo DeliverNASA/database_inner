@@ -11,7 +11,10 @@
  * 3. 元组获取：根据索引项访问磁盘，读出元组
  */
 
+static int w_addr;
+
 void Q3(Buffer *buf, int target, char relationship) {
+    w_addr = index_search_addr;
     if (relationship == 'R') {
         setupIndex(buf, sort_addr + 1, sort_addr + 16, 'R');
     } else {
@@ -95,7 +98,8 @@ int searchIndex(Buffer *buf, id_file *f, int target, block *w_blk, int *count) {
             printf("X = %d, Y = %d\n", X, Y);
             (*count)++;
             if (*count % data_num == 0) {
-                writeBlockToDisk((unsigned char *) w_blk, 700, buf);
+                printf("结果写入磁盘块：%d\n\n", w_addr);
+                writeBlockToDisk((unsigned char *) w_blk, w_addr++, buf);
                 w_blk = (block*) getNewBlockInBuffer(buf);
             }
         }
@@ -152,7 +156,8 @@ int search(Buffer *buf, int target, char relationship) {
     }
     // 将剩余的记录还没写入
     if (count % data_num != 0) {
-        writeBlockToDisk((unsigned char *) w_blk, 700, buf);
+        printf("结果写入磁盘块：%d\n\n", w_addr);
+        writeBlockToDisk((unsigned char *) w_blk, w_addr, buf);
     }
 
     printf("\n");
